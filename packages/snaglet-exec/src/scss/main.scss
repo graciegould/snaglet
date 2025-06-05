@@ -1,0 +1,30 @@
+// src/scss/main.scss
+// This is your global SCSS file.
+
+// Example global style (you can replace this)
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f4f8; // A light background color
+  color: #333; // Default text color
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+// You can define global variables, mixins, etc. here
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+// Example of using a variable
+h1, h2, h3 {
+  color: $primary-color;
+}
+
+// Remove existing global styles from index.css if they are now managed here. 

@@ -1,0 +1,29 @@
+// src/components/MyStyledComponent/MyStyledComponent.module.scss
+
+// You can use global SCSS variables if they are imported or available through Vite's config
+// For example, if $primary-color is globally defined:
+// @import '../../scss/main.scss'; // Not always needed for variables with Vite, but good for mixins/functions
+
+.myComponent {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #e9ecef; // A light grey background
+  border: 1px solid #dee2e6;
+  margin-top: 20px;
+
+  h2 {
+    // color: $primary-color; // Example using a global variable
+    color: #495057; // Local color for demonstration
+    margin-top: 0;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .highlight {
+    font-weight: bold;
+    color: #0056b3; // A darker blue for highlight
+  }
+} 

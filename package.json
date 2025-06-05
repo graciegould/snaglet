@@ -1,0 +1,19 @@
+{
+  "name": "snaglet",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=snaglet-server",
+    "build": "npm run build --workspaces --if-present",
+    "start": "npm start --workspace=snaglet-server",
+    "bootstrap": "npm run bootstrap --workspace=snaglet-server",
+    "lint": "npm run lint --workspaces --if-present"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
