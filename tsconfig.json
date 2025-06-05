@@ -1,0 +1,8 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/snaglet-app" },
+    { "path": "packages/snaglet-exec" },
+    { "path": "packages/snaglet-server" }
+  ]
+} 
